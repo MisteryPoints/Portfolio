@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import Head from 'netx/head'
+import Head from 'next/head'
 import { GridItemStyle } from '../grid-item'
 
 const variants = {
@@ -18,6 +18,7 @@ const Layout = ({ children, title }) => (
                     </title>
                 </Head>
             )}
+            { children }
             <GridItemStyle  /> 
         </>
     </motion.article>

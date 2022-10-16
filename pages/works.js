@@ -43,13 +43,13 @@ const Works = () => {
 				</Section>
 			</SimpleGrid>
 
+			<Section>
+				<Divider my={6}/>
+				<Heading as='h3' fontSize={20} mb={4}>
+					Collaborations
+				</Heading>
+			</Section>
 			<SimpleGrid columns={[ 1, 1, 2 ]} gap={6}>
-				<Section>
-					<Divider my={6}/>
-					<Heading as='h3' fontSize={20} mb={4}>
-						Collaborations
-					</Heading>
-				</Section>
 				<Section>
 					<WorkGridItem id='margelo' title='Margelo' thumbnail={thumbMargelo}>
 						A VR Creative tools for fashion brands
@@ -67,13 +67,13 @@ const Works = () => {
 				</Section>
 			</SimpleGrid>
 
+			<Section>
+				<Divider my={6}/>
+				<Heading as='h3' fontSize={20} mb={4}>
+					Old works
+				</Heading>
+			</Section>
 			<SimpleGrid columns={[ 1, 1, 2 ]} gap={6}>
-				<Section>
-					<Divider my={6}/>
-					<Heading as='h3' fontSize={20} mb={4}>
-						Old works
-					</Heading>
-				</Section>
 				<Section>
 					<WorkGridItem id='pichu2' title='Pichu*Pichu' thumbnail={thumbPichu2}>
 						Twitter client app for iPhone Safari
