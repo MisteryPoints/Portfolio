@@ -1,0 +1,17 @@
+.grid-item-thumbnail:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+    transition: all 0.7s linear;
+  } 
+  
+  .overflow {
+    overflow: hidden !important;
+  }
+  
+  .card-img-top {
+    transform: scale(1) !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.8) !important;
+  }

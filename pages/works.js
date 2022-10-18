@@ -2,13 +2,16 @@ import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbModetokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbTheFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import thumbEcoLive from '../public/images/works/ecolive_eyecatch.png'
+import thumbUptask from '../public/images/works/uptask_eyecatch.png'
+import thumbPokeRemix from '../public/images/works/pokeremix_eyecatch.png'
+import thumbGuitarLA from '../public/images/works/guitarla_eyecatch.png'
+import thumbCafeQuiosco from '../public/images/works/cafe-quiosco_eyecatch.png'
+import thumbAutoInsurance from '../public/images/works/autoinsurance_eyecatch.png'
+import thumbWeatherReport from '../public/images/works/weatherreport_eyecatch.png'
+import thumbNewsAPP from '../public/images/works/newsapp_eyecatch.png'
+import thumbDrinks from '../public/images/works/drinksfinder_eyecatch.png'
+import thumbCryptoQuote from '../public/images/works/cryptoquote_eyecatch.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
@@ -23,23 +26,18 @@ const Works = () => {
 				</Heading>
 				<SimpleGrid columns={[ 1, 1, 2 ]} gap={6}>
 					<Section>
-						<WorkGridItem id='inkdrop' title='Inkdrop' thumbnail={thumbInkdrop}>
-							A markdown note-taking app with 100+ plugins, cross-platform and encrypted data sync support
+						<WorkGridItem id='uptask' title='UpTask' thumbnail={thumbUptask}>
+							An application for monitoring and managing projects, collaborators and project tasks.
 						</WorkGridItem>
 					</Section>
 					<Section>
-						<WorkGridItem id='walknote' title='Walknote' thumbnail={thumbWalknote}>
-							Music recommendation app fot IOS
-						</WorkGridItem>
-					</Section>
-					<Section>
-						<WorkGridItem id='the-four-painters' title='The Four Painters' thumbnail={thumbTheFourPainters}>
-							A video work generated with deep learning, imitating famous four painters like Van Gogh
-						</WorkGridItem>
-					</Section>
-					<Section>
-						<WorkGridItem id='menkiki' title='Menkiki' thumbnail={thumbMenkiki}>
+						<WorkGridItem id='pokeremix' title='PokeRemix' thumbnail={thumbPokeRemix}>
 							An app that suggest ramen(noodle) shops based on a given photo of the ramen you want to eat
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='ecolive' title='EcoLive' thumbnail={thumbEcoLive}>
+							A web page of a travel agency in Dominican Republic.
 						</WorkGridItem>
 					</Section>
 				</SimpleGrid>
@@ -47,23 +45,43 @@ const Works = () => {
 				<Section>
 					<Divider my={6}/>
 					<Heading as='h3' fontSize={20} mb={4}>
-						Collaborations
+						Course Projects
 					</Heading>
 				</Section>
 				<SimpleGrid columns={[ 1, 1, 2 ]} gap={6}>
 					<Section>
-						<WorkGridItem id='margelo' title='Margelo' thumbnail={thumbMargelo}>
-							A VR Creative tools for fashion brands
+						<WorkGridItem id='cafequiosco' title='Fresh Coffe Quiosco' thumbnail={thumbCafeQuiosco}>
+							A food ordering APP, for a kiosk coffee, this allows confirmation and attach the user for orders.
 						</WorkGridItem>
 					</Section>
 					<Section>
-						<WorkGridItem id='modetokyo' title='mode.tokyo' thumbnail={thumbModetokyo}>
-							The mode magazine for understanding to personally enjoy Japan
+						<WorkGridItem id='guitarla' title='Guitar LA' thumbnail={thumbGuitarLA}>
+							An application dedicated to the sale of guitars, guitar lessons, blogs and others. 
 						</WorkGridItem>
 					</Section>
 					<Section>
-						<WorkGridItem id='styly' title='Styly' thumbnail={thumbStyly}>
-							A VR Creative tools for fashion brands
+						<WorkGridItem id='autoinsurance' title='Auto Insurance' thumbnail={thumbAutoInsurance}>
+							An application dedicated to the quotation of automobile insurance
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='drinksfinder' title='Drinks Finder' thumbnail={thumbDrinks}>
+							An application dedicated to the search for drinks, according to their type, also allows you to view the recipes of the drinks.
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='weatherreport' title='Weather Report APP' thumbnail={thumbWeatherReport}>
+							An application dedicated to reporting the climate of the desired city or neighborhood. 
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='newsapp' title='News App' thumbnail={thumbNewsAPP}>
+							An application dedicated to the search for general news or by categories.
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='cryptoquote' title='Insta~Quote Crypto' thumbnail={thumbCryptoQuote}>
+							An application dedicated to the quotation of different cryptocurrencies in different markets and currencies.
 						</WorkGridItem>
 					</Section>
 				</SimpleGrid>
