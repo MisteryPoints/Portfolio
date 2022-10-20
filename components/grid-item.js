@@ -17,11 +17,11 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 	
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => (
-	<Box w="100%" align="center" className='animate__animated animate__fadeInUp'>
+	<Box w="100%" align="center" >
 		<NextLink href={`/works/${id}`} >
 			<LinkBox cursor="pointer">
-				<Box align="center" shadow='dark-lg' className="grid-item-thumbnail overflow">
-					<Image src={ thumbnail } alt={ title }  placeholder="blur" className='grid-item-thumbnail card-img-top'/> 
+				<Box align="center" shadow='dark-lg' className="grid-item-thumbnail  ">
+					<Image src={ thumbnail } alt={ title }  placeholder="blur" className='grid-item-thumbnail '/> 
 				</Box>
 				<LinkOverlay href={`/works/${id}`}>
 					<Text mt={2} fontSize={20}>
@@ -39,19 +39,6 @@ export const  GridItemStyle = () => (
 		.grid-item-thumbnail{
 			border-radius: 12px;
 			background: #333333;
-		} 
-		
-		.overflow {
-			overflow: hidden !important;
-		}
-		
-		.card-img-top {
-			transform: scale(1) !important;
-			transition: all 0.2s ease-in-out !important;
-		}
-		
-		.card-img-top:hover {
-			transform: scale(1.8) !important;
-		}
+		}  
 	`}/>
 ) 

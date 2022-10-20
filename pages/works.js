@@ -12,6 +12,9 @@ import thumbWeatherReport from '../public/images/works/weatherreport_eyecatch.pn
 import thumbNewsAPP from '../public/images/works/newsapp_eyecatch.png'
 import thumbDrinks from '../public/images/works/drinksfinder_eyecatch.png'
 import thumbCryptoQuote from '../public/images/works/cryptoquote_eyecatch.png'
+import thumbBudgetControl from '../public/images/works/budgetcontrol_eyecatch.png'
+import thumbVeterinary from '../public/images/works/veterinary_eyecatch.png'
+import thumbCRM from '../public/images/works/CRM_eyecatch.png'
 import thumbSAS from '../public/images/works/sas-automation_eyecatch.png' 
 import thumbMacro from '../public/images/works/macro-analytics_eyecatch.png'
 
@@ -81,6 +84,21 @@ const Works = () => {
 					<Section>
 						<WorkGridItem id='cryptoquote' title='Insta~Quote Crypto' thumbnail={thumbCryptoQuote}>
 							An application dedicated to the quotation of different cryptocurrencies in different markets and currencies.
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='budgetcontrol' title='Budget Control' thumbnail={thumbBudgetControl}>
+							An application dedicated to the control of expenses and their categories.
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='CRM' title='CRM' thumbnail={thumbCRM}>
+							An application dedicated to the control and administration of clients in a fictitious database db.json
+						</WorkGridItem>
+					</Section>
+					<Section>
+						<WorkGridItem id='veterinary' title='Veterinary Appointments' thumbnail={thumbVeterinary}>
+							An application dedicated for the control and administration of appointments for a veterinarian.
 						</WorkGridItem>
 					</Section>
 				</SimpleGrid>
