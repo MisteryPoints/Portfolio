@@ -59,11 +59,19 @@ const Page = () => {
 					</BioSection>
 					<BioSection>
 						<BioYear>2017</BioYear>
-						Worked at Rowe Laboratories as a System Engineer
+						Worked at Rowe Laboratories as a System Engineer Intern
 					</BioSection>
 					<BioSection>
-						<BioYear>2018 to present</BioYear>
-						Worked at Claro DOM as an Analyst (Operations Analyst)
+						<BioYear>2018</BioYear>
+						Worked at Claro DOM as an Avery Prevention and Projects Analyst
+					</BioSection>
+					<BioSection>
+						<BioYear>2020</BioYear>
+						Worked at Claro DOM as an Mobile Operations Analyst 
+					</BioSection>
+					<BioSection>
+						<BioYear>2022 to present</BioYear>
+						Works at Claro DOM as an Number Management Analyst 
 					</BioSection>
 					<BioSection>
 						<BioYear>2020 to present</BioYear>
