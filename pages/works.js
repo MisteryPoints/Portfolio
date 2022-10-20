@@ -31,7 +31,7 @@ const Works = () => {
 					</Section>
 					<Section>
 						<WorkGridItem id='pokeremix' title='PokeRemix' thumbnail={thumbPokeRemix}>
-							An app that suggest ramen(noodle) shops based on a given photo of the ramen you want to eat
+							A web page made for consulting Pokemons like a Pokedex, using new techs.
 						</WorkGridItem>
 					</Section>
 					<Section>
@@ -103,7 +103,7 @@ const Works = () => {
 						</WorkGridItem>
 					</Section> 
 					<Section>
-						<Heading as='h3' fontSize={14	} mb={0}>
+						<Heading as='h3' fontSize={14} mb={0}>
 							And other works and projects...
 						</Heading>
 					</Section>
