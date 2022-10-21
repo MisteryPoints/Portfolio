@@ -12,7 +12,7 @@ const Work = () => {
                     Uptask <Badge>2022</Badge>
                 </Title>
                 <P>
-                    An application for monitoring and managing projects, collaborators and project tasks.
+                    An application for monitoring and managing projects, collaborators and project tasks in real time.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -23,7 +23,7 @@ const Work = () => {
                     </ListItem> 
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Mongo DB, Express, NodeJS, React, Tailwind CSS, Headless UI</span>
+                        <span>Mongo DB, Express, NodeJS, React, Tailwind CSS, Headless UI, Socket.io</span>
                     </ListItem> 
                 </List>
                 <WorkImage src='/images/works/uptask_eyecatch.png' alt='Uptask'/>

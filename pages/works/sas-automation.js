@@ -6,38 +6,25 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title='Inkdrop'>
+        <Layout title='SAS Automation'>
             <Container>
                 <Title>
-                    Inkdrop <Badge>2016</Badge>
+                    SAS Automation <Badge>2021</Badge>
                 </Title>
                 <P>
-                    A Markdown note-talking app with 100+ plugins, cross-platform and encrypted data sync support. The life-time revenue is more than $300k.
+                    A program that allows the automation of data for statistics and dashboard, with automatic mailing for analysis.
                 </P>
-                <List ml={4} my={4}>
-                    <ListItem>
-                        <Meta>Website</Meta>
-                        <Link href='https://ww.inkdrop.app/'>
-                            https://www.inkdrop.app/ <ExternalLinkIcon mx='2px'/>
-                        </Link>
-                    </ListItem>
+                <List ml={4} my={4}> 
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Windows/macOS/Linux/iOS/Android</span>
+                        <span>Windows/Linux</span>
                     </ListItem>
                     <ListItem>
-                        <Meta>Stack</Meta>
-                        <span>NodeJS, Electron, React Native</span>
-                    </ListItem>
-                    <ListItem>
-                        <Meta>Blogpost</Meta>
-                        <Link href='/'>
-                            How I've Attracted The First 500 Paid Users For My SaaS app $5/month <ExternalLinkIcon mx='2px'/>
-                        </Link>
-                    </ListItem>
+                        <Meta>Techs</Meta>
+                        <span>SAS, Oracle DB, Bash Prompt</span>
+                    </ListItem> 
                 </List>
-                <WorkImage src='/images/works/inkdrop_01.png' alt='Inkdrop'/>
-                <WorkImage src='/images/works/inkdrop_02.png' alt='Inkdrop'/>
+                <WorkImage src='/images/works/sas.png' alt='SAS Automation'/> 
             </Container>
         </Layout>
     )

@@ -6,27 +6,27 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title='News App'>
+        <Layout title='Veterinary Appointments'>
             <Container>
                 <Title>
-                    News App <Badge>2022</Badge>
+                    Veterinary Appointments <Badge>2022</Badge>
                 </Title>
                 <P>
-                    An application dedicated to the search for general news or by categories.
+                    An application dedicated for the control and administration of appointments for a veterinarian.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://news-app-devpoint.vercel.app/'>
-                            https://news-app-devpoint.vercel.app/ <ExternalLinkIcon mx='2px'/>
+                        <Link href='https://vetcitasreact-devpoint.netlify.app/'>
+                            https://vetcitasreact-devpoint.netlify.app/ <ExternalLinkIcon mx='2px'/>
                         </Link>
                     </ListItem> 
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Vite, React, NodeJS, Material UI, Emotion/Styled</span>
+                        <span>Vite, React, NodeJS, TailwindCSS</span>
                     </ListItem> 
                 </List>
-                <WorkImage src='/images/works/newsapp_eyecatch.png' alt='News App'/> 
+                <WorkImage src='/images/works/veterinary_eyecatch.png' alt='Veterinary Appointments'/> 
             </Container>
         </Layout>
     )

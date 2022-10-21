@@ -6,38 +6,27 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title='Inkdrop'>
+        <Layout title='Weather Report APP'>
             <Container>
                 <Title>
-                    Inkdrop <Badge>2016</Badge>
+                    Weather Report APP <Badge>2022</Badge>
                 </Title>
                 <P>
-                    A Markdown note-talking app with 100+ plugins, cross-platform and encrypted data sync support. The life-time revenue is more than $300k.
+                    An application dedicated to reporting the climate of the desired city or neighborhood.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://ww.inkdrop.app/'>
-                            https://www.inkdrop.app/ <ExternalLinkIcon mx='2px'/>
+                        <Link href='https://weather-report-misterypoint.vercel.app/'>
+                            https://weather-report-misterypoint.vercel.app/ <ExternalLinkIcon mx='2px'/>
                         </Link>
-                    </ListItem>
-                    <ListItem>
-                        <Meta>Platform</Meta>
-                        <span>Windows/macOS/Linux/iOS/Android</span>
-                    </ListItem>
+                    </ListItem> 
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>NodeJS, Electron, React Native</span>
-                    </ListItem>
-                    <ListItem>
-                        <Meta>Blogpost</Meta>
-                        <Link href='/'>
-                            How I've Attracted The First 500 Paid Users For My SaaS app $5/month <ExternalLinkIcon mx='2px'/>
-                        </Link>
-                    </ListItem>
+                        <span>Vite, React, NodeJS</span>
+                    </ListItem> 
                 </List>
-                <WorkImage src='/images/works/inkdrop_01.png' alt='Inkdrop'/>
-                <WorkImage src='/images/works/inkdrop_02.png' alt='Inkdrop'/>
+                <WorkImage src='/images/works/weatherreport_eyecatch.png' alt='Weather Report APP'/> 
             </Container>
         </Layout>
     )

@@ -6,27 +6,27 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title='News App'>
+        <Layout title='CRM'>
             <Container>
                 <Title>
-                    News App <Badge>2022</Badge>
+                    CRM <Badge>2022</Badge>
                 </Title>
                 <P>
-                    An application dedicated to the search for general news or by categories.
+                    An application dedicated to the control and administration of clients in a json-server DB.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://news-app-devpoint.vercel.app/'>
-                            https://news-app-devpoint.vercel.app/ <ExternalLinkIcon mx='2px'/>
+                        <Link href='https://devpoint-crm.netlify.app/'>
+                            https://devpoint-crm.netlify.app/ <ExternalLinkIcon mx='2px'/>
                         </Link>
                     </ListItem> 
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Vite, React, NodeJS, Material UI, Emotion/Styled</span>
+                        <span>Vite, React, NodeJS, JSON-Server, TailwindCSS</span>
                     </ListItem> 
                 </List>
-                <WorkImage src='/images/works/newsapp_eyecatch.png' alt='News App'/> 
+                <WorkImage src='/images/works/crm_eyecatch.png' alt='CRM'/> 
             </Container>
         </Layout>
     )

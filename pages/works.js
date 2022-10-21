@@ -29,7 +29,7 @@ const Works = () => {
 				<SimpleGrid columns={[ 1, 1, 2 ]} gap={6}>
 					<Section>
 						<WorkGridItem id='uptask' title='UpTask' thumbnail={thumbUptask}>
-							An application for monitoring and managing projects, collaborators and project tasks.
+							An application for monitoring and managing projects, collaborators and project tasks in real time.
 						</WorkGridItem>
 					</Section>
 					<Section>
@@ -63,7 +63,7 @@ const Works = () => {
 					</Section>
 					<Section>
 						<WorkGridItem id='autoinsurance' title='Auto Insurance' thumbnail={thumbAutoInsurance}>
-							An application dedicated to the quotation of automobile insurance
+							An application dedicated to the quotation of automobile insurance.
 						</WorkGridItem>
 					</Section>
 					<Section>
@@ -92,8 +92,8 @@ const Works = () => {
 						</WorkGridItem>
 					</Section>
 					<Section>
-						<WorkGridItem id='CRM' title='CRM' thumbnail={thumbCRM}>
-							An application dedicated to the control and administration of clients in a fictitious database db.json
+						<WorkGridItem id='crm' title='CRM' thumbnail={thumbCRM}>
+							An application dedicated to the control and administration of clients in a json-server DB.
 						</WorkGridItem>
 					</Section>
 					<Section>
