@@ -1,4 +1,9 @@
 import { motion } from 'framer-motion'
+import styled from '@emotion/styled'
+
+const SkillFrame = styled.div`
+    
+`
 
 
 const Skill = ({ directionLeft }) => {
@@ -9,7 +14,7 @@ const Skill = ({ directionLeft }) => {
                 x: directionLeft ? -200 : 200,
                 opacity: 0
             }} transition={{ duration: 1 }} whileInView={{ opacity: 1, x: 0 }}
-            src='/'/>
+            src='/images/skills/css.png'/>
         </div>
     )
 }
