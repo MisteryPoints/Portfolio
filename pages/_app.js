@@ -4,6 +4,7 @@ import Fonts from '../components/fonts'
 import theme from '../libs/theme'
 import { AnimatePresence } from 'framer-motion'
 import React from 'react' 
+import '../public/styles/global.css'
 
 const Website = ({ Component, pageProps, router }) => {
     return (
@@ -17,5 +18,6 @@ const Website = ({ Component, pageProps, router }) => {
         </ChakraProvider>
     )
 }
+
 
 export default Website
