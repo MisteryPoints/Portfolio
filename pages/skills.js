@@ -20,6 +20,9 @@ const Skills = ({ skills }) => (
             <Heading as='h3' fontSize={20} mb={4}>
                 My Skills
             </Heading>
+            <Heading as='h3' fontSize={14} mb={4}>
+                Hover on it to display my % level.
+            </Heading>
             <Section delay={0.1}>  
                 <GridSkill>  
                     {skills?.map( skill => <Skill key={skill._id} skill={skill}/>)}
