@@ -10,7 +10,7 @@ import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
 
-	const [text, count] = useTypewriter({
+	const [text] = useTypewriter({
 		words : [
 			"Hi, I'm Víctor Tejada",
 			'I-really-love.jsx',
