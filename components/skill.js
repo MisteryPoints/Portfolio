@@ -18,7 +18,7 @@ const SkillFrame = styled.div`
             width: 8rem;
             height: 8rem;
         } 
-    } 
+    }  
 `
 
 
@@ -30,7 +30,7 @@ const Skill = ({ skill, directionLeft }) => {
         <SkillFrame>
             <div className='group relative flex cursor-pointer'> 
                 <motion.img initial={{
-                    x: directionLeft ? -200 : 200,
+                    x: directionLeft ? -150 : 150,
                     opacity: 0
                 }} transition={{ duration: 1 }} whileInView={{ opacity: 1, x: 0 }}
                 src={urlFor(skill?.image).url()} className='filter group-hover:grayscale  md:w-28 md:h-28'/>
