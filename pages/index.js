@@ -1,7 +1,7 @@
 import NextLink from 'next/link'
 import { Container, Box, Heading, Image, useColorModeValue, Link, List, ListItem, Button, Icon } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { IoLogoWhatsapp, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
+import { IoLogoWhatsapp, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin } from 'react-icons/io5'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -108,11 +108,6 @@ const Page = () => {
 							</Link> 
 						</ListItem>
 						<ListItem>
-							<Link href='https://www.instagram.com/victor_tejada98' target='_blank'>
-								<Button variant='ghost' colorScheme='red' leftIcon={<Icon as={IoLogoInstagram}/>}>@victor_tejada98</Button>
-							</Link> 
-						</ListItem>
-						<ListItem>
 							<Link href='https://www.facebook.com/victoorat.bonilla' target='_blank'>
 								<Button variant='ghost' colorScheme='facebook' leftIcon={<Icon as={IoLogoFacebook}/>}>Víctor Tejada</Button>
 							</Link>
@@ -122,6 +117,16 @@ const Page = () => {
 								<Button variant='ghost' colorScheme='whatsapp' leftIcon={<Icon as={IoLogoWhatsapp}/>}>Víctor Tejada</Button>
 							</Link>
 						</ListItem> 
+						<ListItem>
+							<Link href='https://www.linkedin.com/in/devpoint/' target='_blank'>
+								<Button variant='ghost' colorScheme='linkedin' leftIcon={<Icon as={IoLogoLinkedin}/>}>@devpoint</Button>
+							</Link>
+						</ListItem>
+						<ListItem>
+							<Link href='https://www.instagram.com/victor_tejada98' target='_blank'>
+								<Button variant='ghost' colorScheme='red' leftIcon={<Icon as={IoLogoInstagram}/>}>@victor_tejada98</Button>
+							</Link> 
+						</ListItem>
 					</List>
 				</Section>
 			</Container>
