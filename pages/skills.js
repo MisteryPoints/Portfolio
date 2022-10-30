@@ -35,7 +35,7 @@ const Skills = ({ skills }) => (
     </Layout>
 ) 
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
     const skills = await fetchSkills()
 
     return {
