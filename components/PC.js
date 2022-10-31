@@ -8,7 +8,7 @@ function easeOutCirc(x) {
     return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const VoxelDog = () => {
+const PC = () => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const [renderer, setRenderer] = useState()
@@ -76,7 +76,7 @@ const VoxelDog = () => {
             controls.target = target
             setControls(controls)
 
-            loadGLTFModel(scene, '/dog.glb', {
+            loadGLTFModel(scene, 'PC.glb', {
                 receiveShadow: false,
                 castShadow: false
             }).then(() => {
@@ -120,7 +120,7 @@ const VoxelDog = () => {
     }, [renderer, handleWindowResize])
 
     return (
-        <Box ref={refContainer} className='voxel-dog' m='auto' mt={['-20px', '-60px', '-120px']} mb={['-100px', '-140px', '-200px']} w={[280, 480, 640]} h={[280, 480, 640] } position='relative'>
+        <Box ref={refContainer} className='PC' m='auto' mt={['-20px', '-60px', '-120px']} mb={['-100px', '-140px', '-200px']} w={[280, 480, 640]} h={[280, 480, 640] } position='relative'>
             {loading && (
                 <Spinner size='xl' position='absolute' left='50%' top='50%' ml='calc(0px - var(--spinner-size) / 2)' mt='calc(0px - var(--spinner-size))' />
             )}  
@@ -128,4 +128,4 @@ const VoxelDog = () => {
     )
 }
 
-export default VoxelDog
+export default PC
