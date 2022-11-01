@@ -6,27 +6,28 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title='PokeRemix'>
+        <Layout title='DevPoint Messenger'>
             <Container>
                 <Title>
-                    PokeRemix <Badge>2022</Badge>
+                    DevPoint Messenger <Badge>2022</Badge>
                 </Title>
                 <P>
-                A web page made for consulting Pokemons like a Pokedex, using modern techs.
+                    A whatsapp clone made using the most modern Tech`s.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://pokeremix.vercel.app/'>
-                            https://pokeremix.vercel.app/ <ExternalLinkIcon mx='2px'/>
+                        <Link href='https://devpoint-messenger.vercel.app/'>
+                            https://devpoint-messenger.vercel.app/ <ExternalLinkIcon mx='2px'/>
                         </Link>
                     </ListItem> 
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Remix Run, Tailwind CSS, SSR</span>
+                        <span>Next.JS, React, Styled Components, Firebase</span>
                     </ListItem> 
                 </List>
-                <WorkImage src='/images/works/pokeremix_eyecatch.png' alt='PokeRemix'/> 
+                <WorkImage src='/images/works/devpoint-messenger_eyecatch.png' alt='DevPoint Messenger'/> 
+                <WorkImage src='/images/works/devpoint-messenger_eyecatch1.png' alt='DevPoint Messenger'/> 
             </Container>
         </Layout>
     )

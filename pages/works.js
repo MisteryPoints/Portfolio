@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 import thumbEcoLive from '../public/images/works/ecolive_eyecatch.png'
 import thumbUptask from '../public/images/works/uptask_eyecatch.png'
 import thumbPokeRemix from '../public/images/works/pokeremix_eyecatch.png'
+import thumbMessenger from '../public/images/works/devpoint-messenger_eyecatch.png'
 import thumbGuitarLA from '../public/images/works/guitarla_eyecatch.png'
 import thumbCafeQuiosco from '../public/images/works/cafe-quiosco_eyecatch.png'
 import thumbAutoInsurance from '../public/images/works/autoinsurance_eyecatch.png'
@@ -28,13 +29,18 @@ const Works = () => {
 				</Heading>
 				<SimpleGrid columns={[ 1, 1, 2 ]} gap={6}>
 					<Section>
+						<WorkGridItem id='devpoint-messenger' title='DevPoint Messenger' thumbnail={thumbMessenger}>
+							A whatsapp clone made using the most modern Tech`s.
+						</WorkGridItem>
+					</Section>
+					<Section>
 						<WorkGridItem id='uptask' title='UpTask' thumbnail={thumbUptask}>
 							An application for monitoring and managing projects, collaborators and project tasks in real time.
 						</WorkGridItem>
 					</Section>
 					<Section>
 						<WorkGridItem id='pokeremix' title='PokeRemix' thumbnail={thumbPokeRemix}>
-							A web page made for consulting Pokemons like a Pokedex, using new techs.
+							A web page made for consulting Pokemons like a Pokedex, using modern techs.
 						</WorkGridItem>
 					</Section>
 					<Section>
