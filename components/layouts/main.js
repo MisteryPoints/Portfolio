@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from '../navbar'
 import NoSsr from '../no-ssr'
 import { Box, Container } from '@chakra-ui/react'
-import PC from '../PC'
+import PC from '../pc'
 
 const Main = ({children, router}) => {
     return(

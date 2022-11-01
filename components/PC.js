@@ -76,7 +76,7 @@ const PC = () => {
             controls.target = target
             setControls(controls)
 
-            loadGLTFModel(scene, 'PC.glb', {
+            loadGLTFModel(scene, '/images/pc.glb', {
                 receiveShadow: false,
                 castShadow: false
             }).then(() => {
